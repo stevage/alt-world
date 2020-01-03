@@ -3,13 +3,19 @@
         #top.bb.b--gray.bg-washed-yellow
             //- h1 Community Map
         #middle.flex.flex-auto
-            #sidebar.br.b--light-gray.overflow-auto.w5(v-show="false")
+            #sidebar.br.b--light-gray.overflow-auto
                 //- .b.i See the README for tips on customising.              
                 FeatureInfo
             #map-container.relative.flex-auto
                 Map
                 #overlay.absolute
-        #bottom.bt.b--light-gray.flex-none
+        #bottom.bt.b--light-gray.pl2
+            p Procedurally generated map, created by 
+                a(href="https://hire.stevebennett.me") Steve Bennett
+                | . Read about it 
+                a(href="https://stevebennett.me/2020/01/03/alternative-earth-procedurally-generated-map-using-vector-tiles/")| here
+                | .
+            //- .flex-none
 </template>
 
 <script>
