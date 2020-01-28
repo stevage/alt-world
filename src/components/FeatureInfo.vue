@@ -15,7 +15,7 @@ export default {
     name: "FeatureInfo",
     data: () => ({
         feature: undefined,
-        ignoreProps: ['id','Longitude','Latitude', 'image_url']
+        ignoreProps: ['Longitude','Latitude', 'image_url']
     }),
     computed: {
         imageUrl() {
